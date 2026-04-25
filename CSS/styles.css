@@ -1,0 +1,191 @@
+﻿/* COLOR PALETTE*/
+/*
+    #353535 Jet
+    #3C6E71 Caribbean Current
+    #FFFFFF White
+    #D9D9D9 Platinum
+    #284B63 Indigo Dye
+    #64B5F6 Argentinian Blue
+*/
+/* GLOBAL STYLES */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+h1, h2, h3 {
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+h1 {
+    font-size: 7rem;
+    line-height: 1;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* LINKS */
+a {
+    color: #64b5f6;
+}
+a:hover {
+    color: #284B63;
+    text-decoration: none;
+}
+a:hover.inPageBtn{
+    color: #D9D9D9;
+}
+.page-navigation {
+    background: #284B63;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.page-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+.page-navigation li {
+    display: inline-block;    
+    margin-left: 10px;           
+}   
+.btn {
+    background: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+.inPageBtn {
+    background: #284B63;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    margin: 5px;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+/* HOME*/
+.home {
+    background: url(../Media/Backgrounds/bg-sunset-ocean.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.home .content-wrapper{
+    flex: 1 0 auto;
+}
+.content-bg {
+    background: rgb(255 255 255 / 0.9);
+    padding: 30px;  
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* ABOUT*/
+.about {
+    display: flex;
+    flex-direction: column
+}
+.about .content-wrapper {
+    flex: 1 0 auto;
+}
+.about header::before {
+    background: url(../Media/Backgrounds/bg-sunset-ocean.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+/* PROFILE */
+
+/* SHOWCASE */
+.showcase-wrapper {
+    display: grid;    
+}
+.showcase-item {
+    display: flow-root;
+    margin: 15px 0;
+}
+/* WORK EXPERIENCE */
+
+/* EDUCATION */
+.education-item {
+    margin: 30px 0;
+}
+.education-item p {
+    margin: 0;
+}
+
+/* FOOTER */
+footer {
+    background: #284B63;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+footer a:hover {
+    color: #D9D9D9;
+    text-decoration: none;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.socials li {
+    display: inline-block;
+    margin: 5px 1px 0px 5px;
+}
+.socials img {
+    width: 32px;
+}
+.socials img:hover {
+    opacity: 0.5;
+}
+.skill span:first-child{
+    display: inline-block;
+    width: 100px;
+}
